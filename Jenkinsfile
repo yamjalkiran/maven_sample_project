@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.9.11' // Ensure this matches your Jenkins Maven installation name
+        maven 'Maven 3.9.11'
+        git 'Git'
     }
 
     stages {
@@ -40,4 +41,5 @@ pipeline {
         }
     }
 }
+
 
