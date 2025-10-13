@@ -12,7 +12,6 @@ pipeline {
             steps {
                 git url: 'https://github.com/yamjalkiran/maven_sample_project.git', 
                 branch: 'main',
-                credentialsId: 'yamjalkiran@gmail.com'
             }
         }
 
@@ -44,6 +43,7 @@ pipeline {
         }
     }
 }
+
 
 
 
