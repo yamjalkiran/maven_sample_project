@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/yamjalkiran/sample_project.git', branch: 'main'
+                git url: 'https://github.com/yamjalkiran/maven_sample_project.git', branch: 'main'
             }
         }
 
@@ -40,3 +40,4 @@ pipeline {
         }
     }
 }
+
